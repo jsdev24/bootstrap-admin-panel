@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<link rel="stylesheet" href="css/style.css">
+<title>Bootstrap Admin Panel</title>
+</head>
+<body>
+
+<div class="container-fluid mt-5">
+<div class="container">
+    <div class="row">
+        <div class="col-11 mx-auto">
+            <nav aria-label="breadcrumb" class="">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a href="#">User</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Profile Settings</li>
+                </ol>
+                </nav>
+
+                <div class="row">
+                    <div class="col-md-4 d-md-block d-none">
+                    <div class="bg-common card-left">
+                        <div class="shadow">                                                 
+                            <nav class="nav flex-column d-block">
+                                <a data-toggle="tab" class="nav-link active" href="#profile"><span class="icon"><img src="img/user-alt-solid.svg" alt=""></span> Profile</a>
+                                <a data-toggle="tab" class="nav-link" href="#account"><span class="icon"><img src="img/user-cog-solid.svg" alt=""></span> Account</a>
+                                <a data-toggle="tab" class="nav-link" href="#security"><span class="icon"><img src="img/shield-alt-solid.svg" alt=""></span> Security</a>
+                                <a data-toggle="tab" class="nav-link" href="#notification"><span class="icon"><img src="img/bell-solid.svg" alt=""></span> Notification</a>
+                                <a data-toggle="tab" class="nav-link" href="#billing"><span class="icon"><img src="img/credit-card-regular.svg" alt=""></span> Billing</a>
+                            </nav>
+                        </div>
+                    </div>
+                    </div>
+
+
+                    <div class="col-md-8 d-md-none">
+                        <div class="">
+                            <div class="border-bottom mb-3">
+                            <ul class="nav nav-tabs nav-fill">
+                                <li class="nav-item">
+                                    <a data-toggle="tab" class="nav-link active" href="#profile"><span class="icon mx-auto"><img src="img/user-alt-solid.svg" alt=""></span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a data-toggle="tab" class="nav-link" href="#account"><span class="icon mx-auto"><img src="img/user-cog-solid.svg" alt=""></span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a data-toggle="tab" class="nav-link" href="#security"><span class="icon mx-auto"><img src="img/shield-alt-solid.svg" alt=""></span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a data-toggle="tab" class="nav-link" href="#notification"><span class="icon mx-auto"><img src="img/bell-solid.svg" alt=""></span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a data-toggle="tab" class="nav-link" href="#billing"><span class="icon mx-auto"><img src="img/credit-card-regular.svg" alt=""></span></a>
+                                </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-8">
+                        <div class="">
+                            <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade show active" id="profile" role="tabpanel">
+                                    <p class="display-4">Profile</p>
+                                </div>
+                                <div class="tab-pane fade" id="account" role="tabpanel">
+                                    <p class="display-4">Account</p>
+                                </div>
+                                <div class="tab-pane fade" id="security" role="tabpanel">
+                                    <p class="display-4">Security</p>
+                                </div>
+                                <div class="tab-pane fade" id="notification" role="tabpanel">
+                                    <p class="display-4">Notification</p>
+                                </div>
+                                <div class="tab-pane fade" id="billing" role="tabpanel">
+                                    <p class="display-4">Billing</p>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+
+        </div>
+    </div>
+</div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
